@@ -1,8 +1,0 @@
-import { motion } from 'framer-motion'
-import { Compass, Plus } from 'lucide-react'
-import SectionTitle from '../components/SectionTitle'
-import PageMeta from '../components/PageMeta'
-import ExperienceCard from '../components/ExperienceCard'
-import Timeline from '../components/Timeline'
-import { experience } from '../data/experience'
-export default function Experience(){ return <main className="page"><PageMeta title="Experience" description="A growing record of practical learning and experience."/><div className="container page-header"><SectionTitle eyebrow="Experience" title="Growing through practice." description="A place for internships, OJT, freelance work, school organizations, volunteering, and other relevant experience as it develops."/></div><section className="section pt-0"><div className="container narrow">{experience.length ? <Timeline>{experience.map((item,i)=><motion.div key={`${item.title}-${i}`} initial={{opacity:0,y:12}} whileInView={{opacity:1,y:0}} viewport={{once:true}}><ExperienceCard item={item}/></motion.div>)}</Timeline> : <div className="experience-empty"><div className="empty-icon"><Compass size={23}/></div><div><span className="eyebrow">Currently building experience</span><h3>Learning through projects and practice.</h3><p className="muted">As a BSIT student, I’m developing practical experience through academic projects, personal projects, experimentation, and continuous learning. This section is ready to grow alongside future opportunities.</p><div className="tag-row"><span className="tag"><Plus size={13}/>Academic projects</span><span className="tag"><Plus size={13}/>Personal projects</span><span className="tag"><Plus size={13}/>Future OJT / internship</span></div></div></div>}</div></section></main> }
