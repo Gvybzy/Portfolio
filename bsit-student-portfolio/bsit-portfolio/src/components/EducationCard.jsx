@@ -1,0 +1,2 @@
+import { GraduationCap } from 'lucide-react'
+export default function EducationCard({ item }) { return <article className="timeline-card"><div className="timeline-dot"><GraduationCap size={16}/></div><div><div className="time">{item.period}</div><h3>{item.degree}</h3><div className="muted">{item.school}</div><p className="muted">{item.description}</p><div className="tag-row">{item.coursework.map(c=><span className="tag" key={c}>{c}</span>)}</div></div></article> }

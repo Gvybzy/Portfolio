@@ -1,0 +1,2 @@
+import { CalendarDays, Briefcase } from 'lucide-react'
+export default function ExperienceCard({ item }) { return <article className="timeline-card"><div className="timeline-dot"><Briefcase size={16}/></div><div><div className="eyebrow-row"><span>{item.type}</span><span className="time"><CalendarDays size={14}/>{item.period}</span></div><h3>{item.title}</h3><div className="muted">{item.organization}</div><p className="muted">{item.description}</p></div></article> }

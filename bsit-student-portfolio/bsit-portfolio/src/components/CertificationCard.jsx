@@ -1,0 +1,2 @@
+import { Award, ExternalLink } from 'lucide-react'
+export default function CertificationCard({ item }) { return <article className="cert-card"><div className="cert-icon"><Award size={19}/></div><div><div className="cert-date">{item.date}</div><h3>{item.name}</h3><div className="muted">{item.issuer}</div>{item.credentialUrl && <a className="text-link" href={item.credentialUrl} target="_blank" rel="noreferrer">View credential <ExternalLink size={14}/></a>}</div></article> }
