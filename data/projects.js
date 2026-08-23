@@ -28,17 +28,17 @@ export const projects = [
     github: "https://github.com/Gvybzy/Eskwela",
   },
   {
-    name: "Pomodoro-Timer",
-    category: "Software",
-    status: "Active",
-    technologies: ["Python", "CustomTkinter"],
+    name: "Log-analyzer",
+    category: "Security",
+    status: "COMPLETED",
+    technologies: ["Python", "Log Analysis", "Detection Rules", "JSON", "Unit Testing"],
     description:
-      "A minimalist dark-themed Pomodoro timer with session tracking and persistent settings.",
+      "A Python command-line tool that analyzes web server logs and flags rule-based indicators of potentially suspicious activity.",
     whatIBuilt:
-      "The full desktop GUI, session-tracking logic, and settings persistence between app launches.",
+      "I built a local Python command-line log analyzer that parses Apache/Nginx-style access logs and applies six configurable detection rules.",
     whatILearned:
-      "Desktop GUI design with CustomTkinter and how to persist application state cleanly.",
-    github: "https://github.com/Gvybzy/Pomodoro-Timer",
+      "I practiced log parsing, regular expressions, IP-based event tracking, time-window analysis, URL decoding, detection rules, and unit testing.",
+    github: "https://github.com/Gvybzy/Log-analyzer",
   },
   {
     name: "Web-Based-School-Project",
