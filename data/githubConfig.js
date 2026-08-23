@@ -11,9 +11,9 @@ export const githubConfig = {
   // Manually selected projects shown in the Featured Projects section above.
   // Full details for these live in data/projects.js.
   featuredRepositories: [
+    "Log-analyzer",
     "ALICE-AI-Agent",
     "Eskwela",
-    "Pomodoro-Timer",
     "Web-Based-School-Project",
   ],
 };
