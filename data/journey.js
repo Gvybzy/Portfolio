@@ -28,12 +28,6 @@ export const journey = [
 
 export const futureProjects = [
   {
-    name: "Log Analyzer",
-    tech: "Python + SQLite",
-    description: "Analyze logs and identify suspicious patterns.",
-    status: "PLANNED",
-  },
-  {
     name: "File Integrity Monitor",
     tech: "Python",
     description: "Explore hashing, file monitoring, and change detection.",
