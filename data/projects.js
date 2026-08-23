@@ -1,6 +1,19 @@
 // Featured project data — manually curated, sourced from actual repository
 // descriptions on github.com/Gvybzy. Update descriptions here if the repos change.
 export const projects = [
+    {
+    name: "Log-analyzer",
+    category: "Security",
+    status: "COMPLETED",
+    technologies: ["Python", "Log Analysis", "Detection Rules", "JSON", "Unit Testing"],
+    description:
+      "A Python command-line tool that analyzes web server logs and flags rule-based indicators of potentially suspicious activity.",
+    whatIBuilt:
+      "I built a local Python command-line log analyzer that parses Apache/Nginx-style access logs and applies six configurable detection rules.",
+    whatILearned:
+      "I practiced log parsing, regular expressions, IP-based event tracking, time-window analysis, URL decoding, detection rules, and unit testing.",
+    github: "https://github.com/Gvybzy/Log-analyzer",
+  },
   {
     name: "ALICE-AI-Agent",
     category: "Automation",
@@ -26,19 +39,6 @@ export const projects = [
     whatILearned:
       "Working across different file formats, automating content transformation, and designing for people with unreliable internet access.",
     github: "https://github.com/Gvybzy/Eskwela",
-  },
-  {
-    name: "Log-analyzer",
-    category: "Security",
-    status: "COMPLETED",
-    technologies: ["Python", "Log Analysis", "Detection Rules", "JSON", "Unit Testing"],
-    description:
-      "A Python command-line tool that analyzes web server logs and flags rule-based indicators of potentially suspicious activity.",
-    whatIBuilt:
-      "I built a local Python command-line log analyzer that parses Apache/Nginx-style access logs and applies six configurable detection rules.",
-    whatILearned:
-      "I practiced log parsing, regular expressions, IP-based event tracking, time-window analysis, URL decoding, detection rules, and unit testing.",
-    github: "https://github.com/Gvybzy/Log-analyzer",
   },
   {
     name: "Web-Based-School-Project",
