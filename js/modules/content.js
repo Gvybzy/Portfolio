@@ -41,7 +41,7 @@ export function renderContent(profile, projects, skillCategories, learning, jour
 
   <section id="contact" class="section-block contact-section">
     <div class="section-heading"><span class="hash">#</span><div><h2>contact</h2><p>For work, collaboration, or just to say hello.</p></div></div>
-    <div class="contact-card"><p class="mono">github</p><a href="${profile.github}" target="_blank" rel="noreferrer">github.com/${profile.githubUsername} ↗</a><p class="contact-note">I'll add Email and LinkedIn later</code>.</p></div>
+    <div class="contact-card"><p class="mono">github</p><a href="${profile.github}" target="_blank" rel="noreferrer">github.com/${profile.githubUsername} ↗</a><p class="contact-note"></code>.</p></div>
   </section>
   <footer class="footer"><span>${esc(profile.name)} — ${esc(profile.role)}</span><span class="mono">${esc(profile.philosophy)}</span></footer>`;
 }
