@@ -18,6 +18,8 @@ export const skillCategories = [
       "Database Fundamentals",
       "Automation",
       "Problem Solving",
+      "Github",
+      "Git",
     ],
   },
 ];
