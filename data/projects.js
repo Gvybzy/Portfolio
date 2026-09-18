@@ -28,17 +28,17 @@ export const projects = [
     github: "https://github.com/Gvybzy/ALICE-AI-Agent",
   },
   {
-    name: "Eskwela",
+    name: "WinFix-Toolkit",
     category: "Learning",
     status: "Active",
-    technologies: ["Python", "Document Processing"],
+    technologies: ["Batch", "Windows", "Document Processing"],
     description:
-      "Turns any article, Word doc, PowerPoint, or PDF into a complete offline study package — reviewer, flashcards, and quiz — built for students with limited internet.",
+        "A lightweight Windows toolkit designed to automate common system maintenance and troubleshooting tasks through simple batch scripts.",
     whatIBuilt:
-      "The document-parsing pipeline that extracts content from multiple file formats and restructures it into study materials.",
+    "A collection of batch-based utilities that automate Windows maintenance, system checks, cleanup tasks, and other practical troubleshooting functions.",
     whatILearned:
-      "Working across different file formats, automating content transformation, and designing for people with unreliable internet access.",
-    github: "https://github.com/Gvybzy/Eskwela",
+        "Working with Windows command-line tools, writing batch scripts, automating repetitive system tasks, and understanding how basic system utilities interact with the Windows environment.",
+    github: "https://github.com/Gvybzy/WinFix-Toolkit",
   },
   {
     name: "Web-Based-School-Project",
