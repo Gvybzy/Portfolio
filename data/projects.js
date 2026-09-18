@@ -43,7 +43,7 @@ export const projects = [
   {
     name: "Raspberry-Pi-Distance-Monitoring",
     category: "Hardware",
-    status: "Active",
+    status: "In Development",
     technologies: ["Raspberry Pi", "Python", "Ultrasonic Sensor", "LED", "Buzzer"],
     description: 
         "A Raspberry Pi-based distance monitoring system that measures object distance in centimeters and provides visual and audio warnings.",
