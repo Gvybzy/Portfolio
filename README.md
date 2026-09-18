@@ -1,6 +1,9 @@
 # Gvybzy Portfolio
 
-A modular, responsive portfolio for a BSIT student deliberately moving toward cybersecurity.
+## About
+
+This portfolio serves as both a personal website and a digital notebook for my projects, skills, education, and ongoing learning journey.
+Rather than presenting myself as an expert, I use this portfolio to document what I have built, what I have learned, and where I am heading next.
 
 ## Structure
 
@@ -10,3 +13,4 @@ A modular, responsive portfolio for a BSIT student deliberately moving toward cy
 - `js/main.js` — application entry point and module composition
 - `data/` — centralized profile, project, skill, journey, and GitHub configuration
 - `css/main.css` — shared design system and responsive styles
+
