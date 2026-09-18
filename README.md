@@ -14,3 +14,6 @@ Rather than presenting myself as an expert, I use this portfolio to document wha
 - `data/` — centralized profile, project, skill, journey, and GitHub configuration
 - `css/main.css` — shared design system and responsive styles
 
+## What I built
+
+I designed and developed the portfolio as a modular frontend application rather than a single static page. Content such as projects, skills, and learning progress is separated into centralized data files, while individual sections are maintained as independent modules.
