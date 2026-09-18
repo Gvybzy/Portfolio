@@ -35,19 +35,22 @@ export const projects = [
     description:
         "A lightweight Windows toolkit designed to automate common system maintenance and troubleshooting tasks through simple batch scripts.",
     whatIBuilt:
-    "A collection of batch-based utilities that automate Windows maintenance, system checks, cleanup tasks, and other practical troubleshooting functions.",
+        "A collection of batch-based utilities that automate Windows maintenance, system checks, cleanup tasks, and other practical troubleshooting functions.",
     whatILearned:
         "Working with Windows command-line tools, writing batch scripts, automating repetitive system tasks, and understanding how basic system utilities interact with the Windows environment.",
     github: "https://github.com/Gvybzy/WinFix-Toolkit",
   },
   {
-    name: "Web-Based-School-Project",
-    category: "Web",
+    name: "Raspberry-Pi-Distance-Monitoring",
+    category: "Hardware",
     status: "Active",
-    technologies: ["HTML"],
-    description: "A school-based web project.",
-    whatIBuilt: "A web project built for a school requirement.",
-    whatILearned: "Foundational web development and page structuring.",
-    github: "https://github.com/Gvybzy/Web-Based-School-Project",
-  },
+    technologies: ["Raspberry Pi", "Python", "Ultrasonic Sensor", "LED", "Buzzer"],
+    description: 
+        "A Raspberry Pi-based distance monitoring system that measures object distance in centimeters and provides visual and audio warnings.",
+    whatIBuilt: 
+        "A working prototype that measures distance using an ultrasonic sensor and responds with different LED colors and buzzer sounds depending on how close the object is.",
+    whatILearned: 
+        "Learned the basics of working with Raspberry Pi hardware, ultrasonic distance sensing, GPIO components, and programming hardware responses with Python.",
+    github: "https://github.com/Gvybzy/raspberry-pi-distance-monitoring",
+},
 ];
