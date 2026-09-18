@@ -13,7 +13,7 @@ export const githubConfig = {
   featuredRepositories: [
     "Log-analyzer",
     "ALICE-AI-Agent",
-    "Eskwela",
+    "WinFix-Toolkit",
     "Web-Based-School-Project",
   ],
 };
