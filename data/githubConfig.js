@@ -14,6 +14,6 @@ export const githubConfig = {
     "Log-analyzer",
     "ALICE-AI-Agent",
     "WinFix-Toolkit",
-    "Web-Based-School-Project",
+    "Raspberry-Pi-Distance-Monitoring",
   ],
 };
